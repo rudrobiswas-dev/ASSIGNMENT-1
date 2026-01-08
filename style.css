@@ -190,3 +190,44 @@ nav .menu a{
     font-size: 16px;
     font-weight: 400;
 }
+
+/* container area */
+#container{
+    padding:  120px;
+    justify-items: center;
+}
+
+#container .container-item{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+#container .knowledge{
+    
+    height: 600px;
+    width: 600px;
+}
+#container .container-item h4 {
+    color: #30B868;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 16px;
+}
+#container .container-item h2 {
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+#container .container-item h6 {
+    color: #627382;
+    font-size: 16px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+#container .checkcircle {
+    display: flex;
+    gap: 5px;
+    padding: 16px 0px;
+}
