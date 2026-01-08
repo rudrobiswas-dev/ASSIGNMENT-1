@@ -10,8 +10,13 @@
   font-optical-sizing: auto;
 }
 
-/* shardstyle */
-
+/* shard style */
+.color1{
+    color: #30B868;
+}
+.color2{
+    color: white;
+}
 .logo{
     width: 139px;
     height: 60px;
@@ -31,11 +36,11 @@
     background-color: #407745;
 }
 
-/* mainstyle */
-header{
+/* main style */
+/* header{
     background-color: #ffffff;
     padding: 24px 120px;
-}
+} */
 nav{
     width: 78%;
     max-width: 1600px;
@@ -44,6 +49,8 @@ nav{
     align-items: center;
     /* border: 1px solid red; */
     margin: 0 auto;
+    background-color: #ffffff;
+    padding: 24px 120px;
 }
 nav .menu{
     display: flex;
@@ -57,4 +64,74 @@ nav .menu a{
     text-decoration: none;
     color: black;
     padding-right: 32px;
+}
+
+/* hero section */
+
+#banner{
+        background-image: url("./assets/hero-bg.png");
+        background-repeat: no-repeat;
+
+    
+}
+
+#banner .banner-content {
+    background-size: cover;
+    background-position: center;
+    min-height:100vh;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 120px;
+}
+
+#banner .banner-content h2 {
+    width: 229px;
+    height: 35px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #ffffff;
+    color: #30B868;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6; 
+    padding: 8px 12px 8px 12px;
+    cursor: pointer;
+}
+#banner .banner-content h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 72px;
+    font-weight: 700;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+#banner .banner-content h6{
+    display: flex;
+    flex-direction: column;
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+    padding-bottom: 32px;
+    align-items: center;
+}
+.btn2{
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 12px 16px;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600px;
+    cursor: pointer;
+    transition: 1s;
+    
+}
+.btn2:hover{
+    background-color: #30B868;
 }
