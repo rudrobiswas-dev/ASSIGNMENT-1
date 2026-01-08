@@ -11,6 +11,7 @@
 }
 
 /* shard style */
+
 .color1{
     color: #30B868;
 }
@@ -31,6 +32,7 @@
     font-weight: 600px;
     cursor: pointer;
     transition: 1s;
+    height: 44px;
 }
 .btn:hover{
     background-color: #407745;
@@ -71,15 +73,12 @@ nav .menu a{
 #banner{
         background-image: url("./assets/hero-bg.png");
         background-repeat: no-repeat;
-
-    
+        min-height:100vh;
+        background-size: cover;
+        background-position: center;
 }
 
 #banner .banner-content {
-    background-size: cover;
-    background-position: center;
-    min-height:100vh;
-    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -130,8 +129,64 @@ nav .menu a{
     font-weight: 600px;
     cursor: pointer;
     transition: 1s;
-    
+    height: 44px;
 }
 .btn2:hover{
     background-color: #30B868;
+}
+
+/* card are */
+#card{
+    padding:  120px;
+    justify-items: center;
+}
+#card h1{
+    color: #001931;
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 16px;
+}
+#card p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 44px;
+    justify-items: center;
+}
+
+#card .card-area{
+    display: flex;
+    justify-content: center;
+}
+
+#card .card-content {
+    width: 322px;
+    height: 300px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.26);
+    background: rgba(255, 255, 255, 1);
+    justify-items: center;
+    padding: 24px;
+    margin: 16px;
+}
+#card .card-content:hover{
+    background-color: #30B868;
+}
+#card .card-content img{
+    background-color: #F95555;
+    border-radius: 100%;
+    padding: 16px;
+    height: 60px;
+    
+}
+#card .card-content h2{
+    color: #001931;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 16px;
+}
+#card .card-content p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: 400;
 }
