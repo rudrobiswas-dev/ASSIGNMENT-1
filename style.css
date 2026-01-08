@@ -231,3 +231,58 @@ nav .menu a{
     gap: 5px;
     padding: 16px 0px;
 }
+
+/* about area */
+#about{
+    display: block;
+    justify-items: center;
+    background: rgba(247, 246, 242, 1);
+    margin: 2px 120px 120px 120px;
+}
+#about .about-item{
+    padding: 80px 40px;
+    justify-items:center ;
+}
+#about .about-item h1{
+    color: #001931;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#about .about-item p{
+    color: #627382;
+    font-size: 16px;
+    font-weight: normal;
+    padding-bottom: 24px;
+    padding-top: 24px;
+}
+
+/* footer area */
+#footer{
+    background-color: #001931;    
+}
+#footer .footer-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 120px;
+}
+#footer .textcolor{
+ color: white;
+ gap: 6px;
+}
+#footer .textcolor h3{
+    padding-bottom: 16px;
+}
+#footer .footer-bottom{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 500;
+    justify-items: center;
+    padding-bottom: 20px;
+}
+#footer .footer-divider{
+    margin: 20px 120px;
+    border: 0;
+    border-top: 1px solid #627382;
+}
